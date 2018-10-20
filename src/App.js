@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 
+const createTree = require("./findExecutables");
+
 class App extends Component {
   render() {
     return (
